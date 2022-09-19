@@ -1,0 +1,32 @@
+.card-frame {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  background-color: grey;
+  border: 3px solid black;
+  border-radius: 30px;
+  /* align-items: center; */
+}
+/* .card-frame :hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
+  transition: 1s;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 25px;
+} */
+
+.image {
+  border: 1px solid darkkhaki;
+  border-radius: 30px;
+  width: 99%;
+  height: 250px;
+}
+.detail-container {
+  width: 150px;
+  height: 100px;
+}
+.top-details {
+  display: flex;
+  flex-direction: row;
+  max-height: 60px;
+}
