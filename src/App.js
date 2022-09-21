@@ -9,7 +9,7 @@ function App() {
   const [rV, setRV] = useState("");
 
   useEffect(() => {
-    let API = `https://api.tvmaze.com/search/${rV}?q=${search}`;
+    let API = `https://api.tvmaze.com/search/{rV}?q={search}`;
     // if (rV === "actor") {
     //   setRV("actor");
     // } else {
